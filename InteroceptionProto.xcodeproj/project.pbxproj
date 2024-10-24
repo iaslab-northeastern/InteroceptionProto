@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1566416F673D4BCE50A8F8A7 /* Pods_InteroceptionProtoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C713189303B383D130A68818 /* Pods_InteroceptionProtoTests.framework */; };
 		5D071D2923F26ED300A0D6DA /* InteroceptionDatasetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D071D2823F26ED300A0D6DA /* InteroceptionDatasetTest.swift */; };
 		5D071D2A23F26F6200A0D6DA /* InteroceptionDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC2187523D467F800C4AEC6 /* InteroceptionDataset.swift */; };
 		5D071D2B23F26F7600A0D6DA /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC2187723D46A7A00C4AEC6 /* Logging.swift */; };
@@ -50,7 +49,7 @@
 		63778F13260A592A00DA7BF7 /* lowBeep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63778F11260A592A00DA7BF7 /* lowBeep.mp3 */; };
 		638CBDDD25ACB60A00C375E8 /* clickHigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 638CBDDB25ACB60900C375E8 /* clickHigh.mp3 */; };
 		638CBDDE25ACB60A00C375E8 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 638CBDDC25ACB60900C375E8 /* click.mp3 */; };
-		897B1318CDB1EAC6E616876E /* Pods_InteroceptionProto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377B644C75A517107D11F1A0 /* Pods_InteroceptionProto.framework */; };
+		7333EB33E680578F01455509 /* Pods_InteroceptionProto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F384DC1AB3BB518806A3AB /* Pods_InteroceptionProto.framework */; };
 		951772832395432200B47989 /* TrialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951772822395432200B47989 /* TrialScreen.swift */; };
 		951AD78E23952C0F00D26632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951AD78D23952C0F00D26632 /* AppDelegate.swift */; };
 		951AD79023952C0F00D26632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951AD78F23952C0F00D26632 /* SceneDelegate.swift */; };
@@ -74,7 +73,8 @@
 		9F128AE123991DF20054BD22 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F128AE023991DF20054BD22 /* beep.mp3 */; };
 		9F5375E0239AC1100063FBDC /* InteroceptionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5375DF239AC1100063FBDC /* InteroceptionSettings.swift */; };
 		9F933BA0239E99DB00003B02 /* NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F933B9F239E99DB00003B02 /* NavigationStack.swift */; };
-		FB1436B83470AC13A2279914 /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B5D36DFA1702DF6F3979EE /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework */; };
+		A89B635CFA4C9109776DFA4C /* Pods_InteroceptionProtoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D737763523AC6AD16E81D99 /* Pods_InteroceptionProtoTests.framework */; };
+		C922E19C1811FC56FD69B609 /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C430BC5764D24DBEA280089 /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,9 +95,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10B5D36DFA1702DF6F3979EE /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InteroceptionProto_InteroceptionProtoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		377B644C75A517107D11F1A0 /* Pods_InteroceptionProto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InteroceptionProto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C033FD692CB9AE04902D1A8 /* Pods-InteroceptionProto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProto.debug.xcconfig"; path = "Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto.debug.xcconfig"; sourceTree = "<group>"; };
+		37BEB689BDEBEB0E83832DB2 /* Pods-InteroceptionProto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProto.debug.xcconfig"; path = "Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto.debug.xcconfig"; sourceTree = "<group>"; };
 		5D071D2823F26ED300A0D6DA /* InteroceptionDatasetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteroceptionDatasetTest.swift; sourceTree = "<group>"; };
 		5D071D2F23F2E11B00A0D6DA /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		5D071D3023F2E11B00A0D6DA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -138,7 +136,10 @@
 		63778F11260A592A00DA7BF7 /* lowBeep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lowBeep.mp3; sourceTree = "<group>"; };
 		638CBDDB25ACB60900C375E8 /* clickHigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickHigh.mp3; sourceTree = "<group>"; };
 		638CBDDC25ACB60900C375E8 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
-		650AE0245EAB1B3FC088DC8E /* Pods-InteroceptionProto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProto.release.xcconfig"; path = "Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto.release.xcconfig"; sourceTree = "<group>"; };
+		6C430BC5764D24DBEA280089 /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InteroceptionProto_InteroceptionProtoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D737763523AC6AD16E81D99 /* Pods_InteroceptionProtoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InteroceptionProtoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8484B8858C15FDEADF3561AE /* Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig"; path = "Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B69F1359F06C0C639581A01 /* Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig"; path = "Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		951772822395432200B47989 /* TrialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialScreen.swift; sourceTree = "<group>"; };
 		951AD78A23952C0F00D26632 /* InteroceptionProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteroceptionProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		951AD78D23952C0F00D26632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -168,11 +169,10 @@
 		9F128AE023991DF20054BD22 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
 		9F5375DF239AC1100063FBDC /* InteroceptionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteroceptionSettings.swift; sourceTree = "<group>"; };
 		9F933B9F239E99DB00003B02 /* NavigationStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationStack.swift; sourceTree = "<group>"; };
-		A343631C044C7BDAA42476F4 /* Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig"; path = "Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A51286E475D8061CD8195C73 /* Pods-InteroceptionProtoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProtoTests.debug.xcconfig"; path = "Target Support Files/Pods-InteroceptionProtoTests/Pods-InteroceptionProtoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B766514E458FC27F7C37EEAB /* Pods-InteroceptionProtoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProtoTests.release.xcconfig"; path = "Target Support Files/Pods-InteroceptionProtoTests/Pods-InteroceptionProtoTests.release.xcconfig"; sourceTree = "<group>"; };
-		C713189303B383D130A68818 /* Pods_InteroceptionProtoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InteroceptionProtoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFBC6DB3FCE84AC8948B553A /* Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig"; path = "Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B60C3BBD96B25B50AFBDB243 /* Pods-InteroceptionProtoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProtoTests.release.xcconfig"; path = "Target Support Files/Pods-InteroceptionProtoTests/Pods-InteroceptionProtoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8F384DC1AB3BB518806A3AB /* Pods_InteroceptionProto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InteroceptionProto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB28837239AFC2ED674EE03 /* Pods-InteroceptionProto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProto.release.xcconfig"; path = "Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto.release.xcconfig"; sourceTree = "<group>"; };
+		F34234BB8DF9129534836322 /* Pods-InteroceptionProtoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InteroceptionProtoTests.debug.xcconfig"; path = "Target Support Files/Pods-InteroceptionProtoTests/Pods-InteroceptionProtoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				897B1318CDB1EAC6E616876E /* Pods_InteroceptionProto.framework in Frameworks */,
+				7333EB33E680578F01455509 /* Pods_InteroceptionProto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1566416F673D4BCE50A8F8A7 /* Pods_InteroceptionProtoTests.framework in Frameworks */,
+				A89B635CFA4C9109776DFA4C /* Pods_InteroceptionProtoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB1436B83470AC13A2279914 /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework in Frameworks */,
+				C922E19C1811FC56FD69B609 /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +277,7 @@
 				951AD7B123952C1000D26632 /* InteroceptionProtoUITests */,
 				951AD78B23952C0F00D26632 /* Products */,
 				A79BCE604BAFE8C634625D46 /* Pods */,
-				DB7CA6B411D7F05A2182ABDD /* Frameworks */,
+				CE6BC39C8451A05C59F2FD3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -379,22 +379,22 @@
 		A79BCE604BAFE8C634625D46 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C033FD692CB9AE04902D1A8 /* Pods-InteroceptionProto.debug.xcconfig */,
-				650AE0245EAB1B3FC088DC8E /* Pods-InteroceptionProto.release.xcconfig */,
-				CFBC6DB3FCE84AC8948B553A /* Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig */,
-				A343631C044C7BDAA42476F4 /* Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig */,
-				A51286E475D8061CD8195C73 /* Pods-InteroceptionProtoTests.debug.xcconfig */,
-				B766514E458FC27F7C37EEAB /* Pods-InteroceptionProtoTests.release.xcconfig */,
+				37BEB689BDEBEB0E83832DB2 /* Pods-InteroceptionProto.debug.xcconfig */,
+				DEB28837239AFC2ED674EE03 /* Pods-InteroceptionProto.release.xcconfig */,
+				8484B8858C15FDEADF3561AE /* Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig */,
+				8B69F1359F06C0C639581A01 /* Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig */,
+				F34234BB8DF9129534836322 /* Pods-InteroceptionProtoTests.debug.xcconfig */,
+				B60C3BBD96B25B50AFBDB243 /* Pods-InteroceptionProtoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		DB7CA6B411D7F05A2182ABDD /* Frameworks */ = {
+		CE6BC39C8451A05C59F2FD3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				377B644C75A517107D11F1A0 /* Pods_InteroceptionProto.framework */,
-				10B5D36DFA1702DF6F3979EE /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework */,
-				C713189303B383D130A68818 /* Pods_InteroceptionProtoTests.framework */,
+				C8F384DC1AB3BB518806A3AB /* Pods_InteroceptionProto.framework */,
+				6C430BC5764D24DBEA280089 /* Pods_InteroceptionProto_InteroceptionProtoUITests.framework */,
+				6D737763523AC6AD16E81D99 /* Pods_InteroceptionProtoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -406,13 +406,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951AD7B723952C1000D26632 /* Build configuration list for PBXNativeTarget "InteroceptionProto" */;
 			buildPhases = (
-				9B98955F7734D67E42050AC7 /* [CP] Check Pods Manifest.lock */,
+				04EAF7AC9E393D5F7C5EDACE /* [CP] Check Pods Manifest.lock */,
 				951AD78623952C0F00D26632 /* Sources */,
 				951AD78723952C0F00D26632 /* Frameworks */,
 				951AD78823952C0F00D26632 /* Resources */,
 				5DBCDD20248522D2008709D2 /* ShellScript */,
-				065E9EAB16FF23E5C7CCBA16 /* [CP] Embed Pods Frameworks */,
-				7BD71D0B22A7930053EEF96D /* [CP] Copy Pods Resources */,
+				E64A8924EF584DCD6D2E7E57 /* [CP] Embed Pods Frameworks */,
+				C80E00D55BECDFCFDF500D99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -427,7 +427,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951AD7BA23952C1000D26632 /* Build configuration list for PBXNativeTarget "InteroceptionProtoTests" */;
 			buildPhases = (
-				27CD30C7B4C4210659189C21 /* [CP] Check Pods Manifest.lock */,
+				CF92426B4475AFFA853D35E9 /* [CP] Check Pods Manifest.lock */,
 				951AD79F23952C1000D26632 /* Sources */,
 				951AD7A023952C1000D26632 /* Frameworks */,
 				951AD7A123952C1000D26632 /* Resources */,
@@ -446,12 +446,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951AD7BD23952C1000D26632 /* Build configuration list for PBXNativeTarget "InteroceptionProtoUITests" */;
 			buildPhases = (
-				80E4FCEB285428D5CE5253FF /* [CP] Check Pods Manifest.lock */,
+				68CDA42423ABBC9EE5B685BC /* [CP] Check Pods Manifest.lock */,
 				951AD7AA23952C1000D26632 /* Sources */,
 				951AD7AB23952C1000D26632 /* Frameworks */,
 				951AD7AC23952C1000D26632 /* Resources */,
-				45D38459599AC30C1E3CF416 /* [CP] Embed Pods Frameworks */,
-				656A3F75C79FD78203C7DF2B /* [CP] Copy Pods Resources */,
+				5D34415D575A759E651124D2 /* [CP] Embed Pods Frameworks */,
+				2CD2A80210C2EE2FC93821F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -544,24 +544,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		065E9EAB16FF23E5C7CCBA16 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		27CD30C7B4C4210659189C21 /* [CP] Check Pods Manifest.lock */ = {
+		04EAF7AC9E393D5F7C5EDACE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -576,14 +559,31 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InteroceptionProtoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-InteroceptionProto-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		45D38459599AC30C1E3CF416 /* [CP] Embed Pods Frameworks */ = {
+		2CD2A80210C2EE2FC93821F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D34415D575A759E651124D2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -619,41 +619,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
-		656A3F75C79FD78203C7DF2B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto-InteroceptionProtoUITests/Pods-InteroceptionProto-InteroceptionProtoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7BD71D0B22A7930053EEF96D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80E4FCEB285428D5CE5253FF /* [CP] Check Pods Manifest.lock */ = {
+		68CDA42423ABBC9EE5B685BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -675,7 +641,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9B98955F7734D67E42050AC7 /* [CP] Check Pods Manifest.lock */ = {
+		C80E00D55BECDFCFDF500D99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF92426B4475AFFA853D35E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -690,11 +673,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InteroceptionProto-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-InteroceptionProtoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64A8924EF584DCD6D2E7E57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InteroceptionProto/Pods-InteroceptionProto-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -916,7 +916,7 @@
 		};
 		951AD7B823952C1000D26632 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C033FD692CB9AE04902D1A8 /* Pods-InteroceptionProto.debug.xcconfig */;
+			baseConfigurationReference = 37BEB689BDEBEB0E83832DB2 /* Pods-InteroceptionProto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -928,6 +928,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L7PXRWJYHV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = InteroceptionProto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -944,7 +945,7 @@
 		};
 		951AD7B923952C1000D26632 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 650AE0245EAB1B3FC088DC8E /* Pods-InteroceptionProto.release.xcconfig */;
+			baseConfigurationReference = DEB28837239AFC2ED674EE03 /* Pods-InteroceptionProto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -956,6 +957,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L7PXRWJYHV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = InteroceptionProto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -972,7 +974,7 @@
 		};
 		951AD7BB23952C1000D26632 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A51286E475D8061CD8195C73 /* Pods-InteroceptionProtoTests.debug.xcconfig */;
+			baseConfigurationReference = F34234BB8DF9129534836322 /* Pods-InteroceptionProtoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -995,7 +997,7 @@
 		};
 		951AD7BC23952C1000D26632 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B766514E458FC27F7C37EEAB /* Pods-InteroceptionProtoTests.release.xcconfig */;
+			baseConfigurationReference = B60C3BBD96B25B50AFBDB243 /* Pods-InteroceptionProtoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1018,7 +1020,7 @@
 		};
 		951AD7BE23952C1000D26632 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFBC6DB3FCE84AC8948B553A /* Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig */;
+			baseConfigurationReference = 8484B8858C15FDEADF3561AE /* Pods-InteroceptionProto-InteroceptionProtoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1039,7 +1041,7 @@
 		};
 		951AD7BF23952C1000D26632 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A343631C044C7BDAA42476F4 /* Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig */;
+			baseConfigurationReference = 8B69F1359F06C0C639581A01 /* Pods-InteroceptionProto-InteroceptionProtoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

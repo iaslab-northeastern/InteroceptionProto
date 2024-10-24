@@ -121,19 +121,19 @@ __attribute__((no_sanitize("thread"))) BOOL GULIsLoggableLevel(GULLoggerLevel lo
 }
 
 #ifdef DEBUG
-void GULResetLogger(void) {
+void GULResetLogger() {
   sGULLoggerOnceToken = 0;
 }
 
-aslclient getGULLoggerClient(void) {
+aslclient getGULLoggerClient() {
   return sGULLoggerClient;
 }
 
-dispatch_queue_t getGULClientQueue(void) {
+dispatch_queue_t getGULClientQueue() {
   return sGULClientQueue;
 }
 
-BOOL getGULLoggerDebugMode(void) {
+BOOL getGULLoggerDebugMode() {
   return sGULLoggerDebugMode;
 }
 #endif

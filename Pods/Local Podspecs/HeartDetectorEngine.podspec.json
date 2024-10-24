@@ -1,0 +1,32 @@
+{
+  "name": "HeartDetectorEngine",
+  "version": "1.44",
+  "summary": "The BioBeats heart and breath detector engine.",
+  "homepage": "http://gitlab.biobeats.com/biobeats/HeartRateDetector",
+  "license": "Code is BioBeats proprietary.",
+  "authors": {
+    "Davide": "davide@biobeats.com"
+  },
+  "source": {
+    "http": "file:/Users/IASL/Documents/PAT_deployment/codebase/patdeployments-Y322PAT-2/InteroceptionProto 2/podrepo-master/HDE/podrepo-master/HeartDetectorEngine",
+    "tag": "v1.44"
+  },
+  "social_media_url": "http://www.biobeats.com",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "HeartDetectorEngine/HeartDetectorEngine/*.{h,m}",
+    "HeartDetectorEngine/Helpers/*.{h,m}",
+    "HeartDetectorEngine/Pipeline/*.{h,m}",
+    "HeartDetectorEngine/Stream/*.{h,m}"
+  ],
+  "frameworks": [
+    "AVFoundation",
+    "Accelerate",
+    "CoreMotion",
+    "Foundation"
+  ],
+  "module_name": "HeartDetectorEngine"
+}
