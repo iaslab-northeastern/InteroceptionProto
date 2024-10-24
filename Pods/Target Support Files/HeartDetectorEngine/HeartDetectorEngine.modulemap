@@ -1,0 +1,6 @@
+framework module HeartDetectorEngine {
+  umbrella header "HeartDetectorEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}
